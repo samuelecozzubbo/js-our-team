@@ -40,9 +40,18 @@ for(let i= 0; i < members.length; i++){
     for(let key in worker){
         console.log( key + ":" + worker[key]);
     }
+    // MILESTONE 2:
+        // Stampare le stesse informazioni su DOM sottoforma di stringhe
+        const container = document.getElementById("container");
+        const card = document.createElement("div");
+        card.classList.add("card");
+        card.innerHTML += ` <img src="${worker.img}" alt="${worker.name} img">
+                            <h3>${worker.name}</h3>
+                            <h6>${worker.role}</h6>
+                        `;
+        container.append(card);
+    
 }
-// MILESTONE 2:
-// Stampare le stesse informazioni su DOM sottoforma di stringhe
 // BONUS 1:
 // Trasformare la stringa foto in una immagine effettiva
 // BONUS 2:
