@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: rgb(228, 228, 228);
+}
+
+header{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 30px;
+}
+
+#container{
+    max-width: 800px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card{
+    max-width: calc((100% / 3) - 40px);
+    text-align: center;
+    background-color: white;
+    padding-bottom: 20px;
+    line-height: 20px;
+}
+
+.card img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}

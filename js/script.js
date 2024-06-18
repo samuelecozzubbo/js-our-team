@@ -19,7 +19,7 @@ const members = [
     {
         "name": "Angela Lopez",
         "role": "Social Media Manager",
-        "img": "img/angela-caroll-chief-editor.jpg",
+        "img": "img/angela-lopez-social-media-manager.jpg",
     },
     {
         "name": "Scott Estrada",
